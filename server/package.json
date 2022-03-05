@@ -1,0 +1,22 @@
+{
+  "name": "just-chat",
+  "version": "1.0.0",
+  "description": "simple chat app using socket.io",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index"
+  },
+  "keywords": [
+    "chat-app",
+    "socket.io"
+  ],
+  "author": "Amr Abdelkamel",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.1"
+  }
+}
